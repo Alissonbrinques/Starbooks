@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+overflow-x: hidden;
+
+}
+
+:root{
+    --primarycolor:#dcdcdc;
+    --secundarycolor:#363636;
+    --tertialycolor:#387423;
+
+    --font-family:'Montserrat';
+}
+
+body{
+width:100vw;
+background-color: var(--primarycolor);
+}
+
+header{
+display:flex;
+width: 100%;
+height: 5rem;
+background-color:var(--primarycolor);
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+position: fixed;
+}
+
+.navbar{
+overflow-y: hidden;
+display:flex;
+width: 100%;
+justify-content:space-between;
+margin: 0 auto;
+align-items: center;
+}
+.logo h1{
+    margin: 80px;
+    text-transform: uppercase;
+    font-family: var(--font-family);
+    color:var(--secundarycolor);
+    font-weight: 800;
+    display:flex;
+    align-items: center;
+}
+.logo h1 span{
+    font-weight: 400;
+    color:var(--tertialycolor);
+}
+
+
+.menu{
+display:flex;
+font-family: var(--font-family);
+font-weight: 800;
+font-size:14px;
+}
+
+.menu ul{
+display: flex;
+}
+.menu nav ul li a{
+text-transform: uppercase;
+margin:15px;
+display: flex;
+justify-content: space-around;
+color:var(--secundarycolor);
+}
+
+.menu nav ul li a:hover{
+   color:var(--tertialycolor);
+   
+}
+
+
+
+.login{
+display: flex;
+border:none;
+width:200px;
+margin-right: 2rem;
+}
+.login button{
+cursor: pointer;
+font-weight:700;
+font-family:var(--font-family);
+border:none;
+margin-left: 15px;
+color:var(--secundarycolor);
+background-color: var(--primarycolor);
+border-radius: 30px;
+}
+.sectionOne{
+align-items: center;
+display:grid;
+}
+.imgOne{
+width: 90%;
+height: 500px;
+object-fit:cover;
+display:flex;
+margin: 0 auto;
+animation: loading 0.2s linear infinite;
+}
+
+p{
+    background-color:var(--primarycolor);
+    color:var(--secundarycolor);
+    font-family: var(--font-family);
+    font-weight: 500;
+    margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.btn{
+    background-color:var(--secundarycolor);
+    color:var(--primarycolor);
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 16px;
+    border:none;
+    border-radius:6px;
+    width: 150px;   
+    height: 30px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+
+.btn:hover{
+    background-color: #387423;
+}
+.secao_2 p{
+font-weight: 400;
+margin-top:1rem;
+font-family: var(--font-family);
+font-size: 16px;
+text-align: center;
+color:rgb(12, 12, 12);
+
+}
+.secao_2 button{
+overflow-y: hidden;
+margin-top: 20px;
+font-family: var(--font-family);
+font-size: 14px;
+background-color: var(--secundarycolor);
+color:var(--primarycolor);
+width: 120px;
+height: 25px;
+border-radius: 20px;
+border:none;
+cursor: pointer;
+font-weight: 500;
+
+}
+.grid{
+    padding: 20px;
+    align-items: center;
+    margin:auto;
+    max-width: 95%;
+    margin:center;
+    display:grid;
+
+
+}
+.grids{
+    overflow-y: hidden;
+    display: flex;
+    overflow-y: hidden;
+    margin:center;
+    height: 30rem;
+    max-width: 100%;
+    margin:auto;
+    background-color: var(--primarycolor);
+    margin-top: 20px;
+    grid-gap: 20px;
+    border-radius:20px;
+    box-shadow: -20px -19px var(--primarycolor);
+}
+
+
+.text{
+overflow-y: hidden;
+width: 50%;
+text-align: center;
+
+}
+.text h2{
+    color:var(--secundarycolor);
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-size: 25px;
+ 
+}
+.text p{
+    margin:auto;
+    text-align: center;
+    max-width: 70%;
+    color:var(--secundarycolor);
+    margin-top: 50px;
+    font-weight:500;
+    font-family: var(--font-family);
+    font-size: 21px;
+}
+ .botao_1{
+font-size: 16px;
+cursor:pointer;
+margin-top:60px;
+width:500px;
+height: 2rem;
+color:var(--primarycolor);
+background-color:var(--secundarycolor);
+border-radius: 25px;
+border-style: none;
+}
+
+.img{
+object-fit:cover;
+width:50%;
+}
